@@ -1,0 +1,26 @@
+
+body{
+    margin-left : 30px ;
+
+}
+
+input{
+    background-color: beige;
+    width : 230px;
+    height : 25px;
+    margin:5px ;
+    padding: 5px ;
+}
+
+h1{
+    color:blue ;
+}
+
+button{
+    margin-left: 5px;
+    background-color: blueviolet;
+}
+
+p{
+    margin-left: 10px;
+}

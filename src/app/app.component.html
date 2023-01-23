@@ -1,0 +1,17 @@
+<body>
+    <h1>{{title}}</h1>
+
+    <input type="text" #name placeholder="Enter name" name="name"><br>
+    <input type="text" #rollno placeholder="Enter roll" name="Rollno"><br>
+    <input type="text" #branch placeholder="Enter branch" name="Branch"><br>
+    <input type="text" #year placeholder="Enter year" name="Year"><br>
+
+    <button style="font-size: large;"  (click)="getValue(name.value,rollno.value , branch.value , year.value)" > Register </button>
+    <br><br>
+    <h1>Your regi data</h1>
+
+    <p>Name : {{displayname}}</p>
+    <p>Roll : {{displayrollno}}</p>
+    <p>Branch : {{displaybranch}}</p>
+    <p>Year : {{displayyear}}</p>
+</body>
